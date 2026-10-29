@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="270" viewBox="0 0 1200 270" role="img" aria-label="Design, Engineer, Launch, Evolve">
+<defs>
+<linearGradient id="track" x1="0" x2="1"><stop offset="0" stop-color="#234854"/><stop offset="1" stop-color="#2F6170"/></linearGradient>
+<radialGradient id="pulse"><stop offset="0" stop-color="#3EE283"/><stop offset="0.35" stop-color="#22D16B" stop-opacity="0.7"/><stop offset="1" stop-color="#22D16B" stop-opacity="0"/></radialGradient>
+<radialGradient id="bg" cx="0.5" cy="0.4" r="0.7"><stop offset="0" stop-color="#101521"/><stop offset="1" stop-color="#07090F"/></radialGradient>
+<filter id="soft" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="6"/></filter>
+</defs>
+<rect width="1200" height="270" rx="16" fill="url(#bg)"/>
+<rect x="0.5" y="0.5" width="1199" height="269" rx="16" fill="none" stroke="#1a2230"/>
+<path d="M150 112 H1050" stroke="url(#track)" stroke-width="2" stroke-dasharray="2 8" stroke-linecap="round"/>
+<g><circle r="16" cy="112" fill="url(#pulse)" filter="url(#soft)"><animate attributeName="cx" dur="8.0s" repeatCount="indefinite" keyTimes="0;0.85;1" values="150;1050;1050"/><animate attributeName="opacity" dur="8.0s" repeatCount="indefinite" keyTimes="0;0.05;0.85;0.95;1" values="0;1;1;0;0"/></circle><circle r="4" cy="112" fill="#3EE283"><animate attributeName="cx" dur="8.0s" repeatCount="indefinite" keyTimes="0;0.85;1" values="150;1050;1050"/><animate attributeName="opacity" dur="8.0s" repeatCount="indefinite" keyTimes="0;0.05;0.85;0.95;1" values="0;1;1;0;0"/></circle></g>
+<circle cx="150" cy="112" r="27" fill="#0C0F17" stroke="#234854" stroke-width="1.5"><animate attributeName="stroke" dur="8.0s" repeatCount="indefinite" keyTimes="0;0.12;1" values="#22D16B;#22D16B;#234854"/></circle>
+<circle cx="150" cy="112" r="27" fill="#22D16B" opacity="0" filter="url(#soft)"><animate attributeName="opacity" dur="8.0s" repeatCount="indefinite" keyTimes="0;0.12;1" values="0.35;0.35;0"/></circle>
+<text x="150" y="118" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Consolas, Menlo, monospace" font-size="16" fill="#E9EDF3">1</text>
+<text x="150" y="176" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, 'Noto Sans Arabic', sans-serif" font-size="22" font-weight="600" fill="#E9EDF3">Design</text>
+<text x="150" y="206" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, 'Noto Sans Arabic', sans-serif" font-size="19" fill="#9AA3B2" direction="rtl">نصمم</text>
+<text x="150" y="234" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Consolas, Menlo, monospace" font-size="12.5" fill="#8A93A2">Map the system</text>
+<circle cx="450" cy="112" r="27" fill="#0C0F17" stroke="#234854" stroke-width="1.5"><animate attributeName="stroke" dur="8.0s" repeatCount="indefinite" keyTimes="0;0.26299999999999996;0.283;0.40299999999999997;1" values="#234854;#234854;#22D16B;#22D16B;#234854"/></circle>
+<circle cx="450" cy="112" r="27" fill="#22D16B" opacity="0" filter="url(#soft)"><animate attributeName="opacity" dur="8.0s" repeatCount="indefinite" keyTimes="0;0.26299999999999996;0.283;0.40299999999999997;1" values="0;0;0.35;0.35;0"/></circle>
+<text x="450" y="118" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Consolas, Menlo, monospace" font-size="16" fill="#E9EDF3">2</text>
+<text x="450" y="176" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, 'Noto Sans Arabic', sans-serif" font-size="22" font-weight="600" fill="#E9EDF3">Engineer</text>
+<text x="450" y="206" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, 'Noto Sans Arabic', sans-serif" font-size="19" fill="#9AA3B2" direction="rtl">نهندس</text>
+<text x="450" y="234" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Consolas, Menlo, monospace" font-size="12.5" fill="#8A93A2">Build it to last</text>
+<circle cx="750" cy="112" r="27" fill="#0C0F17" stroke="#234854" stroke-width="1.5"><animate attributeName="stroke" dur="8.0s" repeatCount="indefinite" keyTimes="0;0.5469999999999999;0.567;0.6869999999999999;1" values="#234854;#234854;#22D16B;#22D16B;#234854"/></circle>
+<circle cx="750" cy="112" r="27" fill="#22D16B" opacity="0" filter="url(#soft)"><animate attributeName="opacity" dur="8.0s" repeatCount="indefinite" keyTimes="0;0.5469999999999999;0.567;0.6869999999999999;1" values="0;0;0.35;0.35;0"/></circle>
+<text x="750" y="118" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Consolas, Menlo, monospace" font-size="16" fill="#E9EDF3">3</text>
+<text x="750" y="176" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, 'Noto Sans Arabic', sans-serif" font-size="22" font-weight="600" fill="#E9EDF3">Launch</text>
+<text x="750" y="206" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, 'Noto Sans Arabic', sans-serif" font-size="19" fill="#9AA3B2" direction="rtl">نطلق</text>
+<text x="750" y="234" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Consolas, Menlo, monospace" font-size="12.5" fill="#8A93A2">Ship to the stores</text>
+<circle cx="1050" cy="112" r="27" fill="#0C0F17" stroke="#234854" stroke-width="1.5"><animate attributeName="stroke" dur="8.0s" repeatCount="indefinite" keyTimes="0;0.83;0.85;0.97;1" values="#234854;#234854;#22D16B;#22D16B;#234854"/></circle>
+<circle cx="1050" cy="112" r="27" fill="#22D16B" opacity="0" filter="url(#soft)"><animate attributeName="opacity" dur="8.0s" repeatCount="indefinite" keyTimes="0;0.83;0.85;0.97;1" values="0;0;0.35;0.35;0"/></circle>
+<text x="1050" y="118" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Consolas, Menlo, monospace" font-size="16" fill="#E9EDF3">4</text>
+<text x="1050" y="176" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, 'Noto Sans Arabic', sans-serif" font-size="22" font-weight="600" fill="#E9EDF3">Evolve</text>
+<text x="1050" y="206" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, 'Noto Sans Arabic', sans-serif" font-size="19" fill="#9AA3B2" direction="rtl">نطوّر</text>
+<text x="1050" y="234" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Consolas, Menlo, monospace" font-size="12.5" fill="#8A93A2">Measure, improve</text>
+</svg>
